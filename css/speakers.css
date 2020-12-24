@@ -1,0 +1,70 @@
+.cards {
+  width: 100%;
+
+  margin: auto;
+  background-color: #f17e50;
+}
+
+.about-speakers {
+  margin-top: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.title-speaker {
+  font-size: 50px;
+}
+
+.title-speaker,
+.sub-title-speaker {
+  margin-bottom: 16px;
+  color: white;
+}
+
+.sub-title-speaker {
+  font-size: 42px;
+}
+
+.speakers {
+  text-align: center;
+}
+
+.speaker {
+  width: 220px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 16px 32px 0;
+  padding: 20px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.speaker-portrait .speaker-avatar {
+  border-radius: 50%;
+}
+
+.speaker-name {
+  margin-top: 10px;
+}
+
+.speaker-name,
+.speaker-speach {
+  font-size: 18px;
+}
+
+.speaker-name,
+.speaker-bio {
+  margin-bottom: 10px;
+}
+
+.speaker-bio {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.speaker-speach {
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+}

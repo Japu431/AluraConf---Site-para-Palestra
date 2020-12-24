@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Front-end Conclusão</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/app.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/about.css" />
+  <link rel="stylesheet" href="./css/speakers.css" />
+  <link rel="stylesheet" href="./css/form.css" />
+</head>
+<body>
+  <header class="menu-header">
+    <nav class="navigation">
+      <ul>
+        <li class="link"><a href="#panel-about" id="sobre">Sobre</a></li>
+        <li class="link"><a href="#panel-speakers" id="palestrantes">Palestrantes</a></li>
+      </ul>
+    </nav>
+    <div class="jumbotron">
+      <section class="painel-main">
+        <h1 class="title">AluraConf</h1>
+        <h2 class="sub-title">30Maio|Rio</h2>
+      </section>
+      <section class="subcribe-section">
+        <a class="subscribe" href="#panel-form">Inscreva-se</a>
+      </section>
+    </div>
+  </header>
+  <section class="panel-about" id="panel-about">
+    <div class="container" id="sobre-about">
+      <h1 class="title-main">Muito conteúdo: do frontend ao backend</h1>
+
+      <h2 class="sub-title-main">
+        30 de Maio de 2020 - Na cidade Maravilhosa
+      </h2>
+
+      <div class="about-description">
+        <p class="text-main">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          atque beatae voluptas voluptatum qui laborum aliquid minima
+          exercitationem hic distinctio quaerat iste alias maxime modi illo,
+          doloremque neque praesentium voluptatibus.
+        </p>
+        <p class="text-main">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          impedit odit amet nesciunt magni optio ad! Tempore, deserunt.
+          Voluptatum quidem, obcaecati vel dicta numquam fugiat dolores velit
+          voluptatibus rerum ipsa.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="cards container" id="panel-speakers">
+    <div class="about-speakers">
+      <h2 class="title-speaker">Palestrantes</h2>
+      <h3 class="sub-title-speaker">
+        Aprenda com os Palestrantes que são refêrencia no mercado
+      </h3>
+    </div>
+    <ul class="speakers">
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Developer Engineer</p>
+        </figure>
+        <p class="speaker-speach">asdsad</p>
+      </li>
+
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Developer Engineer</p>
+        </figure>
+        <p class="speaker-speach">To be or not be MEAN</p>
+      </li>
+
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Developer Engineer</p>
+        </figure>
+        <p class="speaker-speach">To be or not be MEAN</p>
+      </li>
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Developer Engineer</p>
+        </figure>
+        <p class="speaker-speach">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod
+          temporibus aliquid sequi pariatur non id, enim quae cupiditate minus
+          nobis aspernatur voluptatibus, rerum maxime dolor consequuntur.
+        </p>
+      </li>
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Developer Engineer</p>
+        </figure>
+        <p class="speaker-speach">To be or not be MEAN</p>
+      </li>
+
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Engineer</p>
+        </figure>
+        <p class="speaker-speach">To be or not be MEAN</p>
+      </li>
+
+      <li class="speaker">
+        <figure class="speaker-portrait">
+          <img class="speaker-avatar" src="./img/palestrantes/placeholder.jpeg" alt="speaker" />
+          <figcaption class="speaker-name">Yusuke-kun</figcaption>
+          <p class="speaker-bio">Software Engineer</p>
+        </figure>
+        <p class="speaker-speach">To be or not be MEAN</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="form-container" id="panel-form">
+    <h1 class="title-form">Seus Dados</h1>
+    <form class="form" action="">
+      <label class="label-input" for="nome">Nome</label>
+      <input class="input" type="text" name="nome" id="nome" autocomplete="off" />
+      <label class="label-input" for="email">Email</label>
+      <input class="input" type="email" name="email" id="email" autocomplete="off" />
+    </form>
+    <button id="submit" type="submit">Realizar Inscrição</button>
+  </section>
+  <footer>
+    <p>&copy;Yusuke-kun</p>
+  </footer>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

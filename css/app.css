@@ -1,0 +1,46 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.form {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.label-input {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 3px solid #46989d;
+
+  font-size: 25px;
+}
+
+#submit {
+  margin: auto;
+  border-radius: 6px;
+  background: #46989d;
+  font-size: 25px;
+  color: white;
+  padding: 20px 30px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background: #368186;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 30px;
+  background: #d1d0d0;
+  padding: 40px;
+}
